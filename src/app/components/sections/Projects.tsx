@@ -44,7 +44,7 @@ const projects = [
     description: "Um portfólio interativo que revive a nostalgia dos computadores dos anos 80/90, com uma interface inspirada no clássico Macintosh.",
     tech: ["REACT", "CSS", "Framer Motion", "VITE", "Git"],
     github: "https://github.com/luanpessuti/Portfolio",
-    live: "https://portfolio-luan-pessuti.vercel.app/",
+    live: "https://portfolio-luanpessuti-1st-versioni.vercel.app/",
     color: "#a463f8",
     accent: "#c08cff",
     rotation: "-rotate-2"
