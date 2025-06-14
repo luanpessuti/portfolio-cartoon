@@ -104,10 +104,10 @@ export default function About() {
 
           <div className="relative">
             {/* Linha da timeline */}
-            <div className="absolute left-8 md:left-1/2 top-0 h-full w-1 bg-black transform -translate-x-1/2" />
+            <div className="absolute left-8 md:left-1/2 top-0 h-full w-1 bg-black transform -translate-x-1/2"/>
 
             {/* Items da timeline */}
-            <div className="space-y-16 pl-10 md:pl-0">
+            <div className="space-y-16 pl-10 md:pl-0" >
 
               {/* Experiência 1 */}
               <motion.div
@@ -117,7 +117,7 @@ export default function About() {
                 viewport={{ once: true }}
                 className="relative md:w-1/2 md:pr-16"
               >
-                <div className="absolute left-0 md:left-full top-6 w-8 h-8 bg-[#4ecdc4] border-4 border-black rounded-full transform -translate-x-1/2" />
+                <div className="absolute right-80 md:left-full top-6 w-8 h-8 bg-[#4ecdc4] border-4 border-black rounded-full transform -translate-x-1/2" />
                 <div className="cartoon-border-2 cartoon-shadow-2 bg-white p-8 transform hover:-rotate-1 transition-transform">
                   <h3 className="text-2xl font-bold mb-4 text-black font-[Comic_CAT]">O Início</h3>
                   <p className="text-lg text-gray-800 leading-relaxed">
@@ -139,7 +139,7 @@ export default function About() {
                 viewport={{ once: true }}
                 className="relative md:w-1/2 md:ml-auto md:pl-16"
               >
-                <div className="absolute left-0 top-6 w-8 h-8 bg-[#ff6b6b] border-4 border-black rounded-full transform -translate-x-1/2" />
+                <div className="absolute right-80 md:left-0 top-6 w-8 h-8 bg-[#ff6b6b] border-4 border-black rounded-full transform -translate-x-1/2" />
                 <div className="cartoon-border-2 cartoon-shadow-2 bg-white p-4 transform hover:scale-105 transition-transform">
                   <h4 className="text-lg font-bold mb-2 text-center font-[Comic_CAT]">Certificado de Programação Inicial</h4>
                   <Image
@@ -170,7 +170,7 @@ export default function About() {
                 viewport={{ once: true }}
                 className="relative md:w-1/2 md:pr-16"
               >
-                <div className="absolute left-0 md:left-full top-6 w-8 h-8 bg-[#a463f8] border-4 border-black rounded-full transform -translate-x-1/2" />
+                <div className="absolute right-80 md:left-full top-6 w-8 h-8 bg-[#a463f8] border-4 border-black rounded-full transform -translate-x-1/2" />
                 <div className="cartoon-border-2 cartoon-shadow-2 bg-white p-8 transform hover:rotate-1 transition-transform">
                   <h3 className="text-2xl font-bold mb-4 text-black font-[Comic_CAT]">A Evolução</h3>
                   <p className="text-lg text-gray-800 leading-relaxed">
@@ -192,7 +192,7 @@ export default function About() {
                 viewport={{ once: true }}
                 className="relative md:w-1/2 md:ml-auto md:pl-16"
               >
-                <div className="absolute left-0 top-6 w-8 h-8 bg-[#68a063] border-4 border-black rounded-full transform -translate-x-1/2" />
+                <div className="absolute right-80 md:left-0 top-6 w-8 h-8 bg-[#68a063] border-4 border-black rounded-full transform -translate-x-1/2" />
                 <div className="cartoon-border-2 cartoon-shadow-2 bg-white p-4 transform hover:scale-105 transition-transform">
                   <h4 className="text-lg font-bold mb-2 text-center font-[Comic_CAT]">Certificado Lógica Avançada</h4>
                   <Image
@@ -223,7 +223,7 @@ export default function About() {
                 viewport={{ once: true }}
                 className="relative md:w-1/2 md:pr-16"
               >
-                <div className="absolute left-0 md:left-full top-6 w-8 h-8 bg-[#3178c6] border-4 border-black rounded-full transform -translate-x-1/2" />
+                <div className="absolute right-80 md:left-full top-6 w-8 h-8 bg-[#3178c6] border-4 border-black rounded-full transform -translate-x-1/2" />
                 <div className="cartoon-border-2 cartoon-shadow-2 bg-white p-8 transform hover:rotate-1 transition-transform">
                   <h3 className="text-2xl font-bold mb-4 text-black font-[Comic_CAT]">O Diferencial</h3>
                   <p className="text-lg text-gray-800 leading-relaxed">
@@ -245,7 +245,7 @@ export default function About() {
                 viewport={{ once: true }}
                 className="relative md:w-1/2 md:ml-auto md:pl-16"
               >
-                <div className="absolute left-0 top-6 w-8 h-8 bg-[#ffe66d] border-4 border-black rounded-full transform -translate-x-1/2" />
+                <div className="absolute right-80 md:left-0 top-6 w-8 h-8 bg-[#ffe66d] border-4 border-black rounded-full transform -translate-x-1/2" />
                 <div className="cartoon-border-2 cartoon-shadow-2 bg-white p-4 transform hover:scale-105 transition-transform">
                   <h4 className="text-lg font-bold mb-2 text-center font-[Comic_CAT]">Certificado Web Full-Stack</h4>
                  <Image

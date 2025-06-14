@@ -86,21 +86,6 @@ body {
   box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.7);
 }
 
-/* Timeline item connectors */
-.timeline-connector {
-  position: relative;
-}
-
-.timeline-connector::before {
-  content: '';
-  position: absolute;
-  left: -30px;
-  top: 24px;
-  width: 20px;
-  height: 4px;
-  background: black;
-}
-
 /* Animação para os links de contato */
 .contact-link {
   transition: transform 0.3s ease, background-color 0.3s ease;
@@ -129,13 +114,13 @@ body {
 
 /* Responsive timeline */
 @media (min-width: 768px) {
-  .timeline-connector::before {
-    left: auto;
-    right: -20px;
+  .timeline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
-  
-  .timeline-connector.alt::before {
-    left: -20px;
-    right: auto;
+
+  .timeline-item {
+    width: 48%;
   }
 }

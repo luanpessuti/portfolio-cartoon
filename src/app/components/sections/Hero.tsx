@@ -97,35 +97,38 @@ export default function Hero() {
             Olá! Eu sou o
           </h1>
           <motion.h2
-            className="text-5xl md:text-7xl font-black text-black font-[Comic_CAT]"
+            className="text-5xl md:text-7xl font-black text-black font-[Comic_CAT] relative flex flex-col items-center"
             animate={{
               scale: [1, 1.02, 1]
             }}
             transition={{ duration: 2, repeat: Infinity }}
           >
-            <span className="relative">
-              Luan Pessuti <span className="relative">
-                <Image
-                  src="/me.png"
-                  alt="Descrição da imagem"
-                  width={1200}
-                  height={800}
-                  priority={true}
-                  quality={75}
-                  className="inline-block w-16 h-16 ml-4 rounded-full border-2 border-black shadow-[2px_2px_0px_0px_rgba(0,0,0,0.7)] align-middle"
-                />
-              </span>
-              <motion.span
-                className="absolute -bottom-2 right-0 w-full h-2 bg-[#4ecdc4] z-[-1] opacity-80"
-                animate={{
-                  scaleX: [0.8, 1.2, 0.8]
-                }}
-                transition={{
-                  duration: 3,
-                  repeat: Infinity
-                }}
+            {/* Container do nome + imagem */}
+            <span className="flex flex-row items-center justify-center gap-2 md:gap-4">
+              <span className="block text-center">Luan Pessuti</span>
+              <Image
+                src="/me.png"
+                alt="Descrição da imagem"
+                width={1200}
+                height={800}
+                priority={true}
+                quality={75}
+                className="w-16 h-16 rounded-full border-2 border-black shadow-[2px_2px_0px_0px_rgba(0,0,0,0.7)] align-middle"
+                id="me"
               />
             </span>
+
+            {/* Barra decorativa sempre abaixo do nome+imagem */}
+            <motion.span
+              className="block w-full max-w-[300px] h-2 bg-[#4ecdc4] z-[-1] opacity-80 mt-2"
+              animate={{
+                scaleX: [0.8, 1.2, 0.8]
+              }}
+              transition={{
+                duration: 3,
+                repeat: Infinity
+              }}
+            />
           </motion.h2>
         </motion.div>
 
@@ -192,7 +195,7 @@ export default function Hero() {
 
         {/* Seta animada para scroll */}
         <motion.div
-          className="absolute bottom-20 left-1/2 transform -translate-x-1/2"
+          className="absolute bottom-10 md:bottom-0 left-1/2 transform -translate-x-1/2"
           animate={{ y: [0, 15, 0] }}
           transition={{ duration: 1.5, repeat: Infinity }}
         >
