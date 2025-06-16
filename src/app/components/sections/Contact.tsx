@@ -33,7 +33,7 @@ export default function Contact() {
  const handleSubmit = (e: React.FormEvent) => {
   e.preventDefault();
   
-  const phoneNumber = "55141999356005"; // Substitua pelo seu número com código do país
+  const phoneNumber = "5541999356005"; // Substitua pelo seu número com código do país
   const message = `Olá Luan! Me chamo ${formData.name} (${formData.email}). Mensagem: ${formData.message}`;
   
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
