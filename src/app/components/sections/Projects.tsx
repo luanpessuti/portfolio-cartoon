@@ -18,25 +18,25 @@ const projects = [
   },
   {
     id: 2,
-     title: "FURIA Live Chat",
+    title: "FURIA Live Chat",
     description: "Um componente de chat ao vivo desenvolvido para um cenário fictício da equipe de eSports FURIA, combinando transmissão de vídeo, painel de partidas e mensagens em tempo real.",
     tech: ["Next.js", "TypeScript", "Tailwind", "React", "Node.js", "API Routes", "MongoDB", "Git"],
     github: "https://github.com/luanpessuti/case01furia",
     live: "https://case01furia.vercel.app/",
-    color: "#ff6b6b",
-    accent: "#ff8e8e",
-    rotation: "rotate-2"
+    color: "#4ecdc4",
+    accent: "#7ad9d1",
+    rotation: "-rotate-1"
   },
   {
     id: 3,
-    title: "DUCK Studio - Landing Page",  
+    title: "DUCK Studio - Landing Page",
     description: "DUCK é uma landing page criativa e conceitual para uma agência fictícia de design e desenvolvimento digital que foi fortemente inspirada na identidade visual da milli.agency.",
     tech: ["Next.js", "TypeScript", "Tailwind", "React", "Node.js", "GIT"],
     github: "https://github.com/luanpessuti/duck-landing-page",
     live: "https://duck-studios.vercel.app/",
-    color: "#4ecdc4",
-    accent: "#7ad9d1",
-    rotation: "-rotate-1"
+    color: "#ffe66d",
+    accent: "#fff0a3",
+    rotation: "rotate-1"
   },
   {
     id: 4,
@@ -64,7 +64,7 @@ export default function Projects() {
     <section ref={sectionRef} className="min-h-screen bg-[#f5f0ff] py-20 relative overflow-hidden" id="projects">
       {/* Textura de fundo */}
       <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cartographer.png')] opacity-10" />
-      
+
       {/* Elementos decorativos temáticos */}
       <motion.div
         className="absolute top-10 left-20 w-24 h-24 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,0.7)]"
@@ -79,7 +79,7 @@ export default function Projects() {
       >
         <div className="absolute inset-2 border-2 border-white rounded-full opacity-50" />
       </motion.div>
-      
+
       <motion.div
         style={{ y: y2 }}
         className="absolute top-40 right-10 w-16 h-16 border-4 border-black bg-[#ffe66d] shadow-[8px_8px_0px_0px_rgba(0,0,0,0.7)]"
@@ -143,14 +143,14 @@ export default function Projects() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.15 }}
               viewport={{ once: true }}
-              whileHover={{ 
+              whileHover={{
                 y: -10,
                 transition: { duration: 0.3 }
               }}
               className="relative group"
             >
               {/* Card principal */}
-              <div 
+              <div
                 className={`relative cartoon-border-2 cartoon-shadow-2 p-8 ${project.rotation} h-full`}
                 style={{ backgroundColor: project.color }}
               >
@@ -161,7 +161,7 @@ export default function Projects() {
                   <h3 className="text-2xl md:text-3xl font-bold text-black font-[Comic_CAT] group-hover:underline">
                     {project.title}
                   </h3>
-                  
+
                   <p className="text-gray-800 leading-relaxed text-lg">
                     {project.description}
                   </p>
@@ -192,7 +192,7 @@ export default function Projects() {
                       <Github size={18} />
                       Código
                     </motion.a>
-                    
+
                     <motion.a
                       href={project.live}
                       target="_blank"
@@ -259,7 +259,7 @@ export default function Projects() {
       </div>
 
       {/* Elementos decorativos animados */}
-      <motion.svg 
+      <motion.svg
         className="absolute inset-0 w-full h-full pointer-events-none opacity-10"
         viewBox="0 0 1000 1000"
       >
