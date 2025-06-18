@@ -7,7 +7,18 @@ import { ExternalLink, Github } from 'lucide-react';
 const projects = [
   {
     id: 1,
-    title: "FURIA Live Chat",
+    title: "HabitFlow - Habit Tracker",
+    description: "Aplicação web para construção e acompanhamento de hábitos, com dashboard interativo, gamificação e análise de progresso. Desenvolvido para ajudar usuários a criarem rotinas saudáveis através de lembretes inteligentes, visualização de metas e sistema de recompensas.",
+    tech: ["Next.js", "TypeScript", "Tailwind", "React", "Framer Motrion", "Vercel", "Git"],
+    github: "https://github.com/luanpessuti/habitflow",
+    live: "https://habitflowbrazil.vercel.app/",
+    color: "#ff6b6b",
+    accent: "#ff8e8e",
+    rotation: "rotate-2"
+  },
+  {
+    id: 2,
+     title: "FURIA Live Chat",
     description: "Um componente de chat ao vivo desenvolvido para um cenário fictício da equipe de eSports FURIA, combinando transmissão de vídeo, painel de partidas e mensagens em tempo real.",
     tech: ["Next.js", "TypeScript", "Tailwind", "React", "Node.js", "API Routes", "MongoDB", "Git"],
     github: "https://github.com/luanpessuti/case01furia",
@@ -17,7 +28,7 @@ const projects = [
     rotation: "rotate-2"
   },
   {
-    id: 2,
+    id: 3,
     title: "DUCK Studio - Landing Page",  
     description: "DUCK é uma landing page criativa e conceitual para uma agência fictícia de design e desenvolvimento digital que foi fortemente inspirada na identidade visual da milli.agency.",
     tech: ["Next.js", "TypeScript", "Tailwind", "React", "Node.js", "GIT"],
@@ -26,17 +37,6 @@ const projects = [
     color: "#4ecdc4",
     accent: "#7ad9d1",
     rotation: "-rotate-1"
-  },
-  {
-    id: 3,
-    title: "Ty.Pe Editor",
-    description: "Ty.Pe Editor - Um editor de texto rich-text moderno focado em experiência do usuário, oferecendo formatação em tempo real.",
-    tech: ["HTML", "CSS", "Node.js", "REACT", "Express", "TipTap", "Git"],
-    github: "https://github.com/luanpessuti/ty.pe",
-    live: "https://ty-pe-editor.vercel.app/",
-    color: "#ffe66d",
-    accent: "#fff0a3",
-    rotation: "rotate-1"
   },
   {
     id: 4,
