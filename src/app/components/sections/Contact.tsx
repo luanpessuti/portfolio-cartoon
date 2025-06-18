@@ -201,7 +201,7 @@ export default function Contact() {
               </div>
               <p className="text-lg text-gray-800">
                 📍 <span className="font-semibold">Curitiba, Paraná, Brasil</span><br />
-                Disponível para trabalho <span className="text-[#4ecdc4] font-semibold">híbrido</span>, <span className="text-[#4ecdc4] font-semibold">remoto</span> e <span className="text-[#4ecdc4] font-semibold">presencial</span> (em Curitiba).
+                Disponível para trabalho <span className="text-[#4ecdc4] font-semibold">remoto</span>, <span className="text-[#4ecdc4] font-semibold">híbrido</span> e <span className="text-[#4ecdc4] font-semibold">presencial</span> (em Curitiba).
               </p>
             </div>
 

@@ -141,9 +141,9 @@ export default function Hero() {
           {/* Detalhe de canto */}
           <div className="absolute -bottom-2 -left-2 w-4 h-4 bg-[#ffe66d] border-2 border-black rounded-full" />
 
-          <p className="text-2xl md:text-4xl font-semibold text-black font-[Comic_CAT]">
-            Front-end Developer <span className="text-[#ff6b6b]">criativo</span> e <span className="text-[#4ecdc4]">apaixonado</span>!
-          </p>
+            <p className="text-2xl md:text-4xl font-semibold text-black font-[Comic_CAT]">
+             <span className="text-[#a463f8]">Engenheiro de Software</span> em formação,<br/>
+<span className="text-[#ff6b6b]">Desenvolvedor </span>Front-End <span className="text-[#4ecdc4]">criativo</span> e <span className="text-[#ffe66d]">inovador</span>!</p>
         </motion.div>
 
         {/* Botões de navegação animados */}
